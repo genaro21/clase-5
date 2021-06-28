@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+</head>
+<body>
+    <h1>Colores</h1>
+    <p>Comprueba en consola</p>
+    <p>colores = ["azul", "amarillo", "rojo", "verde", "café", "rosa"]</p>
+
+ <script>
+     const colores = ["azul", "amarillo", "rojo", "verde", "café", "rosa"]
+     console.log(colores)
+     const color = prompt ("Introduce el color a buscar")
+     console.log()
+     let devolver = false
+     for (i=0; i<=colores.length-1; i++) {
+         if (color === colores[i]) {
+            console.log("Este color SI está en nuestro array")
+            devolver = true
+        }
+    }
+    if (devolver === false){
+        console.log('Este color NO está en nuestro array')
+    }
+    
+    
+     
+     
+    
+    
+
+     
+
+
+ </script>   
+</body>
+</html>
