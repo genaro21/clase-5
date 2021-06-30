@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array persona</title>
+</head>
+<body>
+    <h1>Array persona</h1>
+    <p>Y función promedio de edades. Compruebe en consola</p>
+
+ <script>
+          
+     function promedio() {
+        const persona1 = {
+         nombre: 'pepe',
+         edad: 25
+     }
+     const persona2 = {
+         nombre: 'juan',
+         edad: 45
+     }
+    const persona3 = {
+         nombre: 'maria',
+         edad: 85
+     }
+     const personas = [persona1, persona2,persona3]
+     console.log(personas)
+     let acum = 0
+        for (i=0; i<=personas.length-1; i++) {
+                acum = acum + personas[i].edad
+            }
+        let resultado = acum/personas.length
+        console.log(resultado)
+}
+promedio()
+ </script>   
+</body>
+</html>

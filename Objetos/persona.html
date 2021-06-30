@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona</title>
+</head>
+<body>
+    <h1>Objeto persona</h1>
+ <script>
+     const persona = {
+         nombre : "pepe",
+         edad : 25,
+         mayordeedad : function() {
+             if (this.edad>18) {
+                 return ("Eres mayor de edad")
+             } else {
+                 return ("NOOO eres mayor de edad")
+             }
+         }
+    }
+    console.log(persona.mayordeedad())
+ </script>   
+</body>
+</html>
